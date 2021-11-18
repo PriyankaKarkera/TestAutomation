@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-15T20:12:44 IST" name="Default suite" finished-at="2021-11-15T20:13:16 IST" duration-ms="32172">
+    <groups>
+    </groups>
+    <test started-at="2021-11-15T20:12:44 IST" name="Default test" finished-at="2021-11-15T20:13:16 IST" duration-ms="32172">
+      <class name="com.sg.Testscript.DataProviderDemo">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sg.Testscript.DataProviderDemo@6cd28fa7]" started-at="2021-11-15T20:12:44 IST" name="launchBrowser" finished-at="2021-11-15T20:12:47 IST" duration-ms="2745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sg.Testscript.DataProviderDemo@6cd28fa7]" started-at="2021-11-15T20:12:47 IST" name="navigate" finished-at="2021-11-15T20:12:49 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sg.Testscript.DataProviderDemo@6cd28fa7]" started-at="2021-11-15T20:12:49 IST" name="login" data-provider="credentails" finished-at="2021-11-15T20:12:58 IST" duration-ms="8857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sg.Testscript.DataProviderDemo@6cd28fa7]" started-at="2021-11-15T20:12:58 IST" name="login" data-provider="credentails" finished-at="2021-11-15T20:13:07 IST" duration-ms="8802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sg.Testscript.DataProviderDemo@6cd28fa7]" started-at="2021-11-15T20:13:07 IST" name="login" data-provider="credentails" finished-at="2021-11-15T20:13:16 IST" duration-ms="8950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="closeApplication()[pri:4, instance:com.sg.Testscript.DataProviderDemo@6cd28fa7]" started-at="2021-11-15T20:13:16 IST" name="closeApplication" finished-at="2021-11-15T20:13:16 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sg.Testscript.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
