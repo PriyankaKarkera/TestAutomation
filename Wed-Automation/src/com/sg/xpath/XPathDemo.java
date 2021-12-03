@@ -11,7 +11,7 @@ public class XPathDemo {
 	public static void main(String[] args) {
 		launchBrowser();
 		navigate();
-	//	absoluteXPathDemo();
+		absoluteXPathDemo();
 	//relativeXPathUsingTagNameAlone();
 	//	relativeXPathUsingTagNameWithIndex();
 	//	relativeXPathUsingTagNameWithAttributeNameAndValue();
@@ -28,7 +28,7 @@ public class XPathDemo {
 	//	relativeXPathUsingTagNameWithAttributeName_StaleElement();
 	//	relativeXPathUsingTextContent();
 	//	relativeXPathUsingTextContentAlone();
-		relativeXPathUsingPartialMatchingOfTextContent();
+	//	relativeXPathUsingPartialMatchingOfTextContent();
 	}
 	
 	static void launchBrowser()

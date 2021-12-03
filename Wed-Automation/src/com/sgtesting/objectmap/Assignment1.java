@@ -23,7 +23,7 @@ public class Assignment1 {
 		logout();
 		closeApplication();
 	}
-	static void launchBrowser()
+	public static void launchBrowser()
 	{
 		try
 		{
@@ -37,7 +37,7 @@ public class Assignment1 {
 		}
 	}
 	
-	static void navigate()
+	public static void navigate()
 	{
 		try
 		{
@@ -49,7 +49,7 @@ public class Assignment1 {
 		}
 	}
 	
-	static void login()
+	public static void login()
 	{
 		try
 		{
@@ -63,7 +63,7 @@ public class Assignment1 {
 		}
 	}
 	
-	static void minimizeFlyOutWindow()
+	public static void minimizeFlyOutWindow()
 	{
 		try
 		{
@@ -74,7 +74,7 @@ public class Assignment1 {
 			e.printStackTrace();		
 		}
 	}
-	static void createuser()
+	public static void createuser()
 	{
 		try
 		{
@@ -104,7 +104,7 @@ public class Assignment1 {
 			e.printStackTrace();		
 		}
 	}
-	static void deleteuser()
+	public static void deleteuser()
 	{
 		try
 		{
@@ -125,7 +125,7 @@ public class Assignment1 {
 	}
 	
 	
-	static void logout()
+	public static void logout()
 	{
 		try
 		{
@@ -137,7 +137,7 @@ public class Assignment1 {
 		}
 	}
 
-	static void closeApplication()
+	public static void closeApplication()
 	{
 		try
 		{

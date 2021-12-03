@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-19T16:43:27 IST" name="Default suite" finished-at="2021-11-19T16:44:08 IST" duration-ms="40959">
+    <groups>
+    </groups>
+    <test started-at="2021-11-19T16:43:27 IST" name="Default test" finished-at="2021-11-19T16:44:08 IST" duration-ms="40959">
+      <class name="com.sgtesting.actitimesenarios.Assignment1">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.actitimesenarios.Assignment1@231f98ef]" started-at="2021-11-19T16:43:27 IST" name="launchBrowser" finished-at="2021-11-19T16:43:35 IST" duration-ms="7904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.actitimesenarios.Assignment1@231f98ef]" started-at="2021-11-19T16:43:35 IST" name="navigate" finished-at="2021-11-19T16:43:37 IST" duration-ms="2287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.actitimesenarios.Assignment1@231f98ef]" started-at="2021-11-19T16:43:37 IST" name="login" data-provider="loginadmin" finished-at="2021-11-19T16:43:41 IST" duration-ms="3902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutWindow()[pri:4, instance:com.sgtesting.actitimesenarios.Assignment1@231f98ef]" started-at="2021-11-19T16:43:41 IST" name="minimizeFlyOutWindow" finished-at="2021-11-19T16:43:43 IST" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutWindow -->
+        <test-method signature="createuser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.actitimesenarios.Assignment1@231f98ef]" started-at="2021-11-19T16:43:43 IST" name="createuser" data-provider="createuser" finished-at="2021-11-19T16:43:56 IST" duration-ms="12971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priyanka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[km]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[karkera]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[priya@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[priya]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="deleteuser()[pri:6, instance:com.sgtesting.actitimesenarios.Assignment1@231f98ef]" started-at="2021-11-19T16:43:56 IST" name="deleteuser" finished-at="2021-11-19T16:44:04 IST" duration-ms="7515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="logout()[pri:7, instance:com.sgtesting.actitimesenarios.Assignment1@231f98ef]" started-at="2021-11-19T16:44:04 IST" name="logout" finished-at="2021-11-19T16:44:06 IST" duration-ms="2402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:8, instance:com.sgtesting.actitimesenarios.Assignment1@231f98ef]" started-at="2021-11-19T16:44:06 IST" name="closeApplication" finished-at="2021-11-19T16:44:08 IST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.actitimesenarios.Assignment1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

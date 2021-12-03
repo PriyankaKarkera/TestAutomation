@@ -1,0 +1,414 @@
+<html>
+<head>
+<title>TestNG:  Scinarios</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Scinarios</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>67/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 17 14:22:48 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>301 seconds (301476 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment4.login()'><b>login</b><br>Test class: com.sgtesting.actitimesenarios.Assignment4<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.actitimesenarios.Assignment4@1040be71</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6<br>Parameters: Priyanka</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.logout()'><b>logout</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment4.navigate()'><b>navigate</b><br>Test class: com.sgtesting.actitimesenarios.Assignment4</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment4@1040be71</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment4.logout()'><b>logout</b><br>Test class: com.sgtesting.actitimesenarios.Assignment4</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment4@1040be71</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.deleteproject()'><b>deleteproject</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment3.login()'><b>login</b><br>Test class: com.sgtesting.actitimesenarios.Assignment3<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.actitimesenarios.Assignment3@6f10d5b6</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment3.logout()'><b>logout</b><br>Test class: com.sgtesting.actitimesenarios.Assignment3</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment3@6f10d5b6</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.deleteproject()'><b>deleteproject</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment3.navigate()'><b>navigate</b><br>Test class: com.sgtesting.actitimesenarios.Assignment3</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment3@6f10d5b6</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment4.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment4</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment4@1040be71</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment1.logout()'><b>logout</b><br>Test class: com.sgtesting.actitimesenarios.Assignment1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment1@3e08ff24</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7<br>Parameters: Priyanka</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment4.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment4</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.actitimesenarios.Assignment4@1040be71</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment1.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.actitimesenarios.Assignment1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment1@3e08ff24</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment4.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment4<br>Parameters: Priyanka</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.actitimesenarios.Assignment4@1040be71</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment5.login()'><b>login</b><br>Test class: com.sgtesting.actitimesenarios.Assignment5<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.actitimesenarios.Assignment5@548a24a</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment5.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.actitimesenarios.Assignment5</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment5@548a24a</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment5.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.actitimesenarios.Assignment5</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment5@548a24a</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment1.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment1@3e08ff24</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment4.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.actitimesenarios.Assignment4</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment4@1040be71</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment3.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment3</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.actitimesenarios.Assignment3@6f10d5b6</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment3.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.actitimesenarios.Assignment3</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment3@6f10d5b6</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment1.navigate()'><b>navigate</b><br>Test class: com.sgtesting.actitimesenarios.Assignment1</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment1@3e08ff24</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.login()'><b>login</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment5.navigate()'><b>navigate</b><br>Test class: com.sgtesting.actitimesenarios.Assignment5</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment5@548a24a</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment5.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment5</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment5@548a24a</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment1.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.actitimesenarios.Assignment1</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment1@3e08ff24</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.navigate()'><b>navigate</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment2.deleteuser()'><b>deleteuser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment2</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.actitimesenarios.Assignment2@61c4eee0</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment3.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment3<br>Parameters: Priyanka</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.actitimesenarios.Assignment3@6f10d5b6</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment2.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.actitimesenarios.Assignment2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment2@61c4eee0</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment3.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.actitimesenarios.Assignment3</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment3@6f10d5b6</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.navigate()'><b>navigate</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.createtask()'><b>createtask</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7<br>Parameters: Management</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment1.createuser()'><b>createuser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment1<br>Parameters: Priyanka, km, karkera, priya@gmail.com, priya, xyz, xyz</td>
+<td></td>
+<td>14</td>
+<td>com.sgtesting.actitimesenarios.Assignment1@3e08ff24</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment5.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment5</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.actitimesenarios.Assignment5@548a24a</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment2.login()'><b>login</b><br>Test class: com.sgtesting.actitimesenarios.Assignment2<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.actitimesenarios.Assignment2@61c4eee0</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment3.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment3</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment3@6f10d5b6</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.createproject()'><b>createproject</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6<br>Parameters: Banking</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment2.navigate()'><b>navigate</b><br>Test class: com.sgtesting.actitimesenarios.Assignment2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment2@61c4eee0</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment2.createuser()'><b>createuser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment2<br>Parameters: Priyanka, km, karkera, priya@gmail.com, priya, xyz, xyz</td>
+<td></td>
+<td>14</td>
+<td>com.sgtesting.actitimesenarios.Assignment2@61c4eee0</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment2.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.actitimesenarios.Assignment2</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment2@61c4eee0</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment5.logout()'><b>logout</b><br>Test class: com.sgtesting.actitimesenarios.Assignment5</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment5@548a24a</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.login()'><b>login</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment1.deleteuser()'><b>deleteuser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment1</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.actitimesenarios.Assignment1@3e08ff24</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment2.logout()'><b>logout</b><br>Test class: com.sgtesting.actitimesenarios.Assignment2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment2@61c4eee0</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment2.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment2</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment2@61c4eee0</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment5.createproject()'><b>createproject</b><br>Test class: com.sgtesting.actitimesenarios.Assignment5<br>Parameters: Banking</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.actitimesenarios.Assignment5@548a24a</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment1.login()'><b>login</b><br>Test class: com.sgtesting.actitimesenarios.Assignment1<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.actitimesenarios.Assignment1@3e08ff24</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.createproject()'><b>createproject</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7<br>Parameters: Banking</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment7.deletetask()'><b>deletetask</b><br>Test class: com.sgtesting.actitimesenarios.Assignment7</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.actitimesenarios.Assignment7@2a693f59</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment5.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment5<br>Parameters: Priyanka</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.actitimesenarios.Assignment5@548a24a</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment2.modifyuser()'><b>modifyuser</b><br>Test class: com.sgtesting.actitimesenarios.Assignment2<br>Parameters: Priyanka</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.actitimesenarios.Assignment2@61c4eee0</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment4.modifycustomer()'><b>modifycustomer</b><br>Test class: com.sgtesting.actitimesenarios.Assignment4<br>Parameters: Karkera</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.actitimesenarios.Assignment4@1040be71</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment4.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.actitimesenarios.Assignment4</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment4@1040be71</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.modifyproject()'><b>modifyproject</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6<br>Parameters: BankingField</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment5.deleteproject()'><b>deleteproject</b><br>Test class: com.sgtesting.actitimesenarios.Assignment5</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.actitimesenarios.Assignment5@548a24a</td></tr>
+<tr>
+<td title='com.sgtesting.actitimesenarios.Assignment6.logout()'><b>logout</b><br>Test class: com.sgtesting.actitimesenarios.Assignment6</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.actitimesenarios.Assignment6@433defed</td></tr>
+</table><p>
+</body>
+</html>

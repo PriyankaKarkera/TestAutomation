@@ -20,7 +20,7 @@ public class JavaScriptExecutorDemo {
 	//	clickOnCheckBox2();
 	//	clickOnRadioButton1();
 	//	clickOnRadioButton2();
-		selectItemFromDropDown();
+	//	selectItemFromDropDown();
 
 	}
 	

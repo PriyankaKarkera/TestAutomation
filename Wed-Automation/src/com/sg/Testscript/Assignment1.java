@@ -15,12 +15,12 @@ public class Assignment1 {
 	public static void main(String[] args) {
 		launchBrowser();
 		navigate();
-		login();
-		minimizeFlyOutWindow();
-		createuser();
-	     deleteuser();
-		logout();
-	    closeApplication();
+		//login();
+		//minimizeFlyOutWindow();
+		//createuser();
+	   //  deleteuser();
+		//logout();
+	   // closeApplication();
 	}
 	static void launchBrowser()
 	{
