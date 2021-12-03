@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Priyanka km\AppData\Local\Temp\testng-eclipse-1266387020\testng-customsuite.xml</span>
+                    <span>C:\Users\Priyanka km\AppData\Local\Temp\testng-eclipse--994152316\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.sgtesting.tests.annotationssummary.AnnotationsSummary" class="method navigator-link" hash-for-method="test1_Annotations">test1_Annotations</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.sgtesting.softassertions.AssertSameDemo" class="method navigator-link" hash-for-method="assertNotSameDemo">assertNotSameDemo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.sgtesting.tests.annotationssummary.AnnotationsSummary" class="method navigator-link" hash-for-method="test2_Annotations">test2_Annotations</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.sgtesting.softassertions.AssertSameDemo" class="method navigator-link" hash-for-method="assertSameDemo">assertSameDemo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,21 +127,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.sgtesting.tests.annotationssummary.AnnotationsSummary</span>
+              <span class="class-name">com.sgtesting.softassertions.AssertSameDemo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test1_Annotations">
-                  </a> <!-- test1_Annotations -->
-                  <span class="method-name">test1_Annotations</span>
+                  <a name="assertNotSameDemo">
+                  </a> <!-- assertNotSameDemo -->
+                  <span class="method-name">assertNotSameDemo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test2_Annotations">
-                  </a> <!-- test2_Annotations -->
-                  <span class="method-name">test2_Annotations</span>
+                  <a name="assertSameDemo">
+                  </a> <!-- assertSameDemo -->
+                  <span class="method-name">assertSameDemo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +149,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Priyanka km\AppData\Local\Temp\testng-eclipse-1266387020\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Priyanka km\AppData\Local\Temp\testng-eclipse--994152316\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +158,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.sgtesting.tests.annotationssummary.AnnotationsSummary&quot;/&gt;
+      &lt;class name=&quot;com.sgtesting.softassertions.AssertSameDemo&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -200,18 +200,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test1_Annotations')
-data.setCell(0, 2, 'com.sgtesting.tests.annotationssummary.AnnotationsSummary')
-data.setCell(0, 3, 6);
+data.setCell(0, 1, 'assertNotSameDemo')
+data.setCell(0, 2, 'com.sgtesting.softassertions.AssertSameDemo')
+data.setCell(0, 3, 12);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test2_Annotations')
-data.setCell(1, 2, 'com.sgtesting.tests.annotationssummary.AnnotationsSummary')
-data.setCell(1, 3, 2);
+data.setCell(1, 1, 'assertSameDemo')
+data.setCell(1, 2, 'com.sgtesting.softassertions.AssertSameDemo')
+data.setCell(1, 3, 4);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 ms</span>
+              <span class="suite-total-time">Total running time: 16 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,55 +237,15 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.sgtesting.tests.annotationssummary.AnnotationsSummary</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">beforeSuite</span>
+              <div class="chronological-class-name">com.sgtesting.softassertions.AssertSameDemo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assertNotSameDemo</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">13 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">29 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">41 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">test1_Annotations</span>
-                <span class="method-start">42 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">52 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">53 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test2_Annotations</span>
-                <span class="method-start">54 ms</span>
+                <span class="method-name">assertSameDemo</span>
+                <span class="method-start">15 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">59 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">61 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">65 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">afterSuite</span>
-                <span class="method-start">186 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

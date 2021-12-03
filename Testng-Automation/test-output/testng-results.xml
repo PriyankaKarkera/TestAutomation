@@ -2,60 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-14T23:32:53 IST" name="Default suite" finished-at="2021-11-14T23:32:53 IST" duration-ms="55">
+  <suite started-at="2021-11-16T13:33:36 IST" name="Default suite" finished-at="2021-11-16T13:33:36 IST" duration-ms="70">
     <groups>
     </groups>
-    <test started-at="2021-11-14T23:32:53 IST" name="Default test" finished-at="2021-11-14T23:32:53 IST" duration-ms="55">
-      <class name="com.sgtesting.tests.annotationssummary.AnnotationsSummary">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="beforeSuite" finished-at="2021-11-14T23:32:53 IST" duration-ms="9" status="PASS">
+    <test started-at="2021-11-16T13:33:36 IST" name="Default test" finished-at="2021-11-16T13:33:36 IST" duration-ms="70">
+      <class name="com.sgtesting.softassertions.AssertSameDemo">
+        <test-method signature="assertNotSameDemo()[pri:0, instance:com.sgtesting.softassertions.AssertSameDemo@3e6ef8ad]" started-at="2021-11-16T13:33:36 IST" name="assertNotSameDemo" finished-at="2021-11-16T13:33:36 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="beforeTest" finished-at="2021-11-14T23:32:53 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- assertNotSameDemo -->
+        <test-method signature="assertSameDemo()[pri:0, instance:com.sgtesting.softassertions.AssertSameDemo@3e6ef8ad]" started-at="2021-11-16T13:33:36 IST" name="assertSameDemo" finished-at="2021-11-16T13:33:36 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="beforeClass" finished-at="2021-11-14T23:32:53 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="beforeMethod" finished-at="2021-11-14T23:32:53 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test1_Annotations()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="test1_Annotations" finished-at="2021-11-14T23:32:53 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1_Annotations -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="afterMethod" finished-at="2021-11-14T23:32:53 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="beforeMethod" finished-at="2021-11-14T23:32:53 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2_Annotations()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="test2_Annotations" finished-at="2021-11-14T23:32:53 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2_Annotations -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="afterMethod" finished-at="2021-11-14T23:32:53 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="afterClass" finished-at="2021-11-14T23:32:53 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="afterTest" finished-at="2021-11-14T23:32:53 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.sgtesting.tests.annotationssummary.AnnotationsSummary@4d02f94e]" started-at="2021-11-14T23:32:53 IST" name="afterSuite" finished-at="2021-11-14T23:32:53 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.sgtesting.tests.annotationssummary.AnnotationsSummary -->
+        </test-method> <!-- assertSameDemo -->
+      </class> <!-- com.sgtesting.softassertions.AssertSameDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
